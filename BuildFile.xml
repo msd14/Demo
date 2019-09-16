@@ -1,0 +1,9 @@
+<use name="FWCore/Framework"/>
+<use name="DataFormats/Candidate"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="DataFormats/TrackReco"/>
+
+<library file="FilterSample2RecoMu.cc" name="FilterSample2RecoMu">
+  <flags EDM_PLUGIN="1"/>
+</library>
